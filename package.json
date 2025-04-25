@@ -1,11 +1,17 @@
 {
   "name": "bambler",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post": "node main.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@atproto/api": "^0.15.5",
+    "dotenv": "^16.5.0"
+  }
 }
